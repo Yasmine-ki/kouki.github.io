@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Store</title>
+    <!-- Bulma Framework -->
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar is-primary">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">Online Store</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero is-light">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title">Welcome to Our Online Store</h1>
+                <h2 class="subtitle">Find the best products at unbeatable prices!</h2>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Cards Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="title">Products</h2>
+            <div class="columns is-multiline">
+                <!-- Product 1 -->
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://via.placeholder.com/150" alt="Product 1">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-5">Product 1</p>
+                            <p class="subtitle is-6">$10.00</p>
+                            <button class="button is-primary is-fullwidth">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://via.placeholder.com/150" alt="Product 2">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-5">Product 2</p>
+                            <p class="subtitle is-6">$20.00</p>
+                            <button class="button is-primary is-fullwidth">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://via.placeholder.com/150" alt="Product 3">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-5">Product 3</p>
+                            <p class="subtitle is-6">$30.00</p>
+                            <button class="button is-primary is-fullwidth">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Checkout Form Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="title">Checkout</h2>
+            <form>
+                <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Your Name" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                        <input class="input" type="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="field">
+                    <label class="label">Address</label>
+                    <div class="control">
+                        <textarea class="textarea" placeholder="Your Address" required></textarea>
+                    </div>
+                </div>
+                <div class="field">
+                    <button class="button is-primary">Submit Order</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>&copy; 2025 Online Store. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
